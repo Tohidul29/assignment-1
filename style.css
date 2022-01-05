@@ -14,6 +14,7 @@ section{
     border-left: 10px solid;
     border-image-slice: 1;
     padding-left: 20px;
+    margin-bottom: -20px;
 }
 
 h1{
