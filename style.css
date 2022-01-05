@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.top-left-part{
+    border-image: linear-gradient(red, blue);
+    border-left: 10px solid;
+    border-image-slice: 1;
+    padding-left: 20px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    color: white;
+    display: inline-block;
+    padding: 15px 40px;
+    margin-left: 25px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+#color-head{
+    color: tomato;
+}
+
+.intro-part{
+    width: 50%;
+    padding: 70px 90px 0 120px;
+}
+
+.profile-pic{
+    width: 50%;
+    padding: 30px 90px 0 0;
+}
+
+.profile-pic img{
+    width: 100%;
+    height: 80%;
+}
+
+.head{
+    text-align: center;
+}
+
+.container-div{
+    padding: 0 50px 0 50px;
+}
+
+.content{
+    padding: 20px 30px 20px 30px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.content-1{
+    margin-left: 150px;
+    background-color: lightcyan;
+}
+
+.content-2{
+    margin: 0 30px 0 30px;
+    background-color: rgba(245, 235, 222, 0.986);
+}
+
+.content-3{
+    margin-right: 150px;
+    background-color: lightyellow;
+}
+
+.content img{
+    width: 150px;
+    height: 150px;
+}
