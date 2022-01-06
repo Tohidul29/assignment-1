@@ -9,6 +9,10 @@ section{
     margin-bottom: 50px;
 }
 
+.lower-box{
+    padding: 10px 150px;
+}
+
 .top-left-part{
     border-image: linear-gradient(red, blue);
     border-left: 10px solid;
@@ -31,7 +35,6 @@ p{
     color: white;
     display: inline-block;
     padding: 15px 40px;
-    margin-left: 25px;
     border-radius: 5px;
     font-weight: 800;
 }
@@ -87,4 +90,29 @@ p{
 .content img{
     width: 150px;
     height: 150px;
+}
+
+.img-side{
+    width: 40%;
+    height: 100%;
+}
+
+.img-side img{
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.content-side-1{
+    width: 60%;
+    padding: 50px 50px 100px 100px;
+}
+
+.content-side-2{
+    width: 60%;
+    padding: 50px 50px 100px 0;
+}
+
+.semi-head{
+    font-size: 40px;
 }
