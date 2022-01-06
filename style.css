@@ -13,9 +13,15 @@ section{
     padding: 10px 150px;
 }
 
+.contact-box{
+    background-color: rgb(250, 240, 240);
+    padding: 20px 150px 0 150px;
+    margin-top: 0px;
+}
+
 .top-left-part{
     border-image: linear-gradient(red, blue);
-    border-left: 10px solid;
+    border-left: 7px solid;
     border-image-slice: 1;
     padding-left: 20px;
     margin-bottom: -20px;
@@ -39,7 +45,7 @@ p{
     font-weight: 800;
 }
 
-#color-head{
+.color-head{
     color: tomato;
 }
 
@@ -62,9 +68,6 @@ p{
     text-align: center;
 }
 
-.container-div{
-    padding: 0 50px 0 50px;
-}
 
 .content{
     padding: 20px 30px 20px 30px;
@@ -115,4 +118,69 @@ p{
 
 .semi-head{
     font-size: 40px;
+}
+
+#contact-img{
+    border-radius: 20px;
+    width: 100%;
+    height: 80%;
+}
+
+.contact-head{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact-input-part{
+    width: 60%;
+    padding: 0 50px 50px 150px;
+    margin-left: 100px;
+}
+
+#semi-head-size{
+    text-align: center;
+    font-size: 35px;
+}
+
+.contact-input-part input{
+    margin: 30px 20px 20px 30px;
+    text-align: center;
+    background-color: rgba(245, 235, 222, 0.986);
+    border: 2px solid gray;
+    height: 30px;
+    width: 400px;
+    border-radius: 7px;
+    display: block;
+}
+
+.feedback{
+    display: block;
+    height: 120px;
+    width: 400px;
+    text-align: center;
+    background-color: rgba(245, 235, 222, 0.986);
+    border: 2px solid gray;
+    border-radius: 7px;
+    margin: 30px 20px 20px 30px;
+}
+
+#change-pos-btn{
+    margin: 30px 20px 20px 30px;
+}
+
+.contact-img-div{
+    width: 50%;
+    padding-top: 60px;
+}
+
+.footer-part{
+    text-align: center;
+    color: seashell;
+    background-color: black;
+    padding: 30px 0;
+}
+
+.footer-head{
+    font-size: 35px;
+    font-family: 'Moon Dance', cursive;
 }
